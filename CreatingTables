@@ -1,0 +1,7 @@
+from prettytable import PrettyTable
+table = PrettyTable()
+table.add_column("Foods", ["Fruits", "Meats", "Sugars"])
+table.add_column("Types", ["apples", "steaks", "cotton candy"])
+
+table.align = "l"
+print(table)
