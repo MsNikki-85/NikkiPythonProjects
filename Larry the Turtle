@@ -1,0 +1,12 @@
+from turtle import Turtle, Screen
+larry = Turtle()
+print(larry)
+larry.shape("turtle")
+larry.color("pink")
+larry.forward(600)
+
+my_screen = Screen()
+print(my_screen.canvheight)
+my_screen.exitonclick()
+
+from Ptable import Prettytable
